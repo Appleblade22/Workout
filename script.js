@@ -5,7 +5,7 @@ var oneDay = 1000 * 60 * 60 * 24;
 var day = Math.floor(diff / oneDay);
 console.log('Day of year: ' + day);
 console.log(day%4);
-let workout_day = ["pull","leg","rest","push"];
+let workout_day = ["push","pull","leg","rest"];
 let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 document.getElementById(workout_day[day%4]).style.display = "flex";
 document.getElementById("DAY").innerHTML = days[now.getDay()];
